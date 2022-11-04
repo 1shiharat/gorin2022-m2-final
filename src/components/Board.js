@@ -292,7 +292,6 @@ const Board = () => {
                           ref={provided.innerRef}
                           {...provided.draggableProps}
                           {...provided.dragHandleProps}
-                          className="h-100"
                         >
                           <Category
                             board={board}
